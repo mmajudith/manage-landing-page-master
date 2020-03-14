@@ -1,0 +1,311 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Be Vietnam";
+  font-weight: normal;
+}
+
+#container {
+  max-width: 1440px;
+  height: 100%;
+  width: 100%;
+  margin: auto auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+#container {
+  color: #a8abb3;
+  background-image: url(../images/bg-simplify-section-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: white;
+}
+@media screen and (max-width: 998px) {
+  #container {
+    background-image: url(../images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 375px) {
+  #container {
+    background-image: url(../images/bg-simplify-section-mobile.svg);
+    background-repeat: round;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #232b4d;
+}
+
+.header {
+  width: 100%;
+  margin: auto auto;
+}
+.header .header-nav {
+  width: 90%;
+  margin: auto auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 0px;
+}
+.header .header-nav .ham-menu, .header .header-nav .close-menu {
+  display: none;
+}
+.header .header-nav li {
+  display: inline-block;
+  padding: 0px 15px;
+}
+.header .header-nav a {
+  color: #232b4d;
+  text-decoration: none;
+}
+.header .header-nav a:hover {
+  color: #a8abb3;
+}
+.header .header-nav #get-started {
+  background-color: #f15d3b;
+  border-radius: 50px;
+  color: #fafafa;
+  padding: 10px;
+}
+.header .header-nav #get-started:hover {
+  background: #f5846b;
+}
+
+.first-section {
+  width: 90%;
+  margin: auto auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.first-section .inner-first-section {
+  width: 40%;
+  padding: 40px 0px;
+}
+.first-section .inner-first-section h1 {
+  font-size: 42px;
+  margin: 20px 0px;
+}
+.first-section .inner-first-section p {
+  width: 78%;
+}
+.first-section .inner-first-section button {
+  background-color: #f15d3b;
+  border-radius: 50px;
+  color: #fafafa;
+  padding: 10px;
+  border: none;
+  margin: 30px 0px;
+  cursor: pointer;
+}
+.first-section .inner-first-section button:hover {
+  background: #f5846b;
+}
+.first-section .inner-first-section .illustration-intro {
+  width: 50%;
+}
+
+.second-section {
+  width: 90%;
+  margin: auto auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 50px auto;
+}
+.second-section .second-heading {
+  width: 35%;
+}
+.second-section .second-heading h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.second-section .three-second-subheadings {
+  width: 50%;
+}
+.second-section .three-second-subheadings h3, .second-section .three-second-subheadings h4, .second-section .three-second-subheadings h5 {
+  font-size: 16px;
+}
+.second-section .three-second-subheadings .num {
+  background-color: #f15d3b;
+  border-radius: 50px;
+  color: #fafafa;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 7px;
+}
+.second-section .three-second-subheadings p {
+  margin: 20px 0px 20px 20px;
+  margin-left: 85px;
+}
+
+.third-section {
+  width: 100%;
+  margin: auto auto;
+}
+.third-section h6 {
+  font-size: 42px;
+  text-align: center;
+  margin: 100px 0px 50px;
+}
+.third-section .testimonials-wraper {
+  width: 100%;
+  margin: 120px 0px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.third-section .testimonials-wraper .test {
+  text-align: center;
+  width: 450px;
+  background-color: #fafafa;
+  margin: 10px;
+}
+.third-section .testimonials-wraper .move {
+  position: relative;
+  top: -65px;
+  left: 0px;
+}
+.third-section .testimonials-wraper #fourth-testimonial {
+  display: none;
+}
+.third-section .testimonials-wraper p {
+  color: #232b4d;
+  margin: 20px 0px;
+}
+.third-section .testimonials-wraper blockquote {
+  padding: 5px;
+}
+.third-section .test-btn {
+  margin: 40px 0px 100px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.third-section .test-btn button {
+  background-color: #f15d3b;
+  border-radius: 50px;
+  color: #fafafa;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  width: 10%;
+  cursor: pointer;
+}
+.third-section .test-btn button:hover {
+  background: #f5846b;
+}
+
+.simplify-wraper {
+  width: 100%;
+  background-color: #f15d3b;
+}
+.simplify-wraper .simplify {
+  width: 90%;
+  margin: auto auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fafafa;
+}
+.simplify-wraper .simplify p {
+  font-size: 30px;
+  width: 30%;
+  margin: 60px 0px;
+}
+.simplify-wraper .simplify button {
+  background-color: #fafafa;
+  border-radius: 50px;
+  font-weight: 700;
+  width: 10%;
+  height: 30px;
+  border: none;
+  margin: 75px 0px;
+}
+.simplify-wraper .simplify button a {
+  text-decoration: none;
+  color: #f15d3b;
+}
+.simplify-wraper .simplify button a:hover {
+  color: #f69883;
+}
+
+.footer-icons-logo-navs-wraper {
+  width: 100%;
+  margin: auto auto;
+  background-color: #242d52;
+  color: #fafafa;
+  font-size: 14px;
+}
+.footer-icons-logo-navs-wraper a {
+  text-decoration: none;
+  color: #fafafa;
+}
+.footer-icons-logo-navs-wraper .wraper {
+  width: 90%;
+  margin: auto auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footer-icons-logo-navs-wraper .wraper .images {
+  margin: 40px 0px 10px 0px;
+}
+.footer-icons-logo-navs-wraper .wraper .images .footer-social-icons {
+  margin-top: 50px;
+}
+.footer-icons-logo-navs-wraper .wraper .images .footer-social-icons .icon {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.footer-icons-logo-navs-wraper .wraper .images .footer-social-icons .symbol:hover {
+  fill: #f15d3b;
+}
+.footer-icons-logo-navs-wraper .wraper .footer-nav-menu {
+  margin: 30px 0px 10px 0px;
+}
+.footer-icons-logo-navs-wraper .wraper .footer-nav-menu li {
+  margin: 10px;
+}
+.footer-icons-logo-navs-wraper .wraper .footer-nav-menu li a:hover {
+  color: #f15d3b;
+}
+.footer-icons-logo-navs-wraper .wraper .inbox-updates {
+  margin: 40px 0px;
+}
+.footer-icons-logo-navs-wraper .wraper .inbox-updates input {
+  border-radius: 20px;
+  color: #f15d3b;
+  padding: 10px;
+  font-size: 11px;
+}
+.footer-icons-logo-navs-wraper .wraper .inbox-updates button {
+  border-radius: 15px;
+  border: none;
+  padding: 15px;
+  background-color: #f15d3b;
+  cursor: pointer;
+  color: #ffefeb;
+  font-size: 11px;
+}
+.footer-icons-logo-navs-wraper .wraper .inbox-updates button:hover {
+  background: #f5846b;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  padding: 10px 0px 20px 0px;
+}
+
+.attribution a {
+  color: #fafafa;
+}

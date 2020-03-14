@@ -1,0 +1,26 @@
+
+@mixin mQ($arg){
+    @media screen and (max-width: $arg){
+        @content;
+    }
+}
+
+@mixin containersStyle{
+    width: $nityPercentWidth;
+    margin: $equalSizeMargin;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@mixin btnStyles{
+    background-color: $brightRed;
+    border-radius: 50px;
+    color: $veryLightGray;
+    padding: 10px;
+    
+    
+    &:hover{
+        background: lighten($brightRed, 10);
+    }
+}
