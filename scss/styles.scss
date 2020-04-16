@@ -12,6 +12,10 @@
     @include mQ(998px){
         background-image: url(../images/bg-tablet-pattern.svg);
         background-repeat: no-repeat;
+        #get-started{
+            display: none;
+        }
+        
     }
     @include mQ(375px){
         background-image: url(../images/bg-simplify-section-mobile.svg);

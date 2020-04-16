@@ -31,6 +31,9 @@ li {
     background-image: url(../images/bg-tablet-pattern.svg);
     background-repeat: no-repeat;
   }
+  #container #get-started {
+    display: none;
+  }
 }
 @media screen and (max-width: 375px) {
   #container {
